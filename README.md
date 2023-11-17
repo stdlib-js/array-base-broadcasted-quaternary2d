@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bquaternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quaternary2d@esm/index.mjs';
+import bquaternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quaternary2d@v0.1.0-esm/index.mjs';
 ```
 
 #### bquaternary2d( arrays, shapes, fcn )
@@ -115,7 +115,7 @@ The function accepts the following arguments:
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
 import zeros2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros2d@esm/index.mjs';
-import bquaternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quaternary2d@esm/index.mjs';
+import bquaternary2d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcasted-quaternary2d@v0.1.0-esm/index.mjs';
 
 function add( x, y, z, w ) {
     return x + y + z + w;
