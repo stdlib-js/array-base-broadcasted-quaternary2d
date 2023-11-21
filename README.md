@@ -72,11 +72,8 @@ var bquaternary2d = require( '@stdlib/array-base-broadcasted-quaternary2d' );
 Applies a quaternary callback to elements in four [broadcasted][@stdlib/array/base/broadcast-array] nested input arrays and assigns results to elements in a two-dimensional nested output array.
 
 ```javascript
+var add = require( '@stdlib/math-base-ops-add4' );
 var zeros2d = require( '@stdlib/array-base-zeros2d' );
-
-function add( x, y, z, w ) {
-    return x + y + z + w;
-}
 
 var x = [ [ 1.0, 2.0 ] ];
 var y = [ [ 3.0 ], [ 4.0 ] ];
@@ -126,11 +123,8 @@ The function accepts the following arguments:
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filled2dBy = require( '@stdlib/array-base-filled2d-by' );
 var zeros2d = require( '@stdlib/array-base-zeros2d' );
+var add = require( '@stdlib/math-base-ops-add4' );
 var bquaternary2d = require( '@stdlib/array-base-broadcasted-quaternary2d' );
-
-function add( x, y, z, w ) {
-    return x + y + z + w;
-}
 
 var shapes = [
     [ 1, 3 ],
@@ -210,8 +204,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-broadcasted-quaternary2d.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-broadcasted-quaternary2d
 
-[test-image]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-broadcasted-quaternary2d/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-broadcasted-quaternary2d/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-broadcasted-quaternary2d?branch=main
