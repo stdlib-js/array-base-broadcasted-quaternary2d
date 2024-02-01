@@ -1,4 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import a from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-broadcast-array@esm/index.mjs";function s(s,t,r){var d,e,i,o,f,n,m,b,c,j,l,p,h,u,v,x,y,g,k,q,w,z,A,B,C,D,E,F,G,H,I,J,K;if(c=(D=t[4])[1],j=D[0],!(c<=0||j<=0))for(G=(F=a(s[0],t[0],D)).data,d=(E=F.strides)[1],e=E[0],H=(F=a(s[1],t[1],D)).data,i=(E=F.strides)[1],o=E[0],I=(F=a(s[2],t[2],D)).data,f=(E=F.strides)[1],n=E[0],J=(F=a(s[3],t[3],D)).data,m=(E=F.strides)[1],b=E[0],K=s[4],u=0,x=0,g=0,q=0,p=0;p<j;p++){for(h=0,v=0,y=0,k=0,w=G[u],z=H[x],A=I[g],B=J[q],C=K[p],l=0;l<c;l++)C[l]=r(w[h],z[v],A[y],B[k]),h+=d,v+=i,y+=f,k+=m;u+=e,x+=o,g+=n,q+=b}}export{s as default};
-//# sourceMappingURL=index.mjs.map
