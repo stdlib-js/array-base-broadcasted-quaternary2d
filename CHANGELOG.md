@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-11-25)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2c40c48`](https://github.com/stdlib-js/stdlib/commit/2c40c487c3f7cfcfa445d9855fb6c89b97ebf600) - **docs:** fix return values _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)
